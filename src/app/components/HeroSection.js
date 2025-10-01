@@ -9,7 +9,7 @@ export default function HeroSection() {
             style={{ backgroundImage: "url('/images/hero-image.png')" }}
         >
             <div className="hero-content text-center text-white">
-                <h1>{hero_title}</h1>
+                <h1 className="mt-5">{hero_title}</h1>
                 <p className="my-3">{hero_subtitle}</p>
 
                 <div className="w-fit mx-auto">

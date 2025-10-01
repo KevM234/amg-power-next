@@ -12,7 +12,7 @@ body {
 }
 
 body {
-  font-family: var(--font-lexend-deca), sans-serif; /* Usa la variabile del font */
+  font-family: var(--font-lexend-deca) !important; /* Usa la variabile del font */
   position: relative;
 }
 
