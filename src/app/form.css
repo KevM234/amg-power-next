@@ -1,0 +1,53 @@
+/* Stili Personalizzati per il Form */
+
+.form-custom-style .form-control {
+    border-radius: 30px !important; /* Bordi molto arrotondati */
+    padding: 12px 20px !important; /* Più spazio interno */
+    border: 1px solid #e0e0e0 !important; /* Bordo leggero */
+    font-size: 16px;
+    height: 55px; /* Altezza fissa */
+}
+
+.form-custom-style textarea.form-control {
+    height: auto; /* La textarea si adatta in altezza */
+}
+
+/* Stile per il testo segnaposto (placeholder) */
+.form-custom-style .form-control::placeholder {
+    color: #888;
+    opacity: 1;
+}
+
+/* Stile per il bottone di invio */
+.form-custom-style .btn-submit {
+    background-color: #5FC2C9; /* Colore personalizzato (simile allo screenshot) */
+    border-color: #5FC2C9;
+    color: white;
+    border-radius: 30px;
+    padding: 12px 30px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.form-custom-style .btn-submit:hover {
+    background-color: #4eabad; /* Colore più scuro al passaggio del mouse */
+    border-color: #4eabad;
+    color: white;
+}
+
+/* Stile per il link della privacy policy */
+.form-custom-style .iubenda-link {
+    text-decoration: underline !important;
+    color: black; /* Colore standard dei link di Bootstrap */
+    font-size: 14px;
+}
+
+.form-custom-style .form-check-label {
+    font-size: 14px;
+}
+
+.form-custom-style {
+    max-width: 900px; /* Larghezza massima del form */
+    margin: auto; /* Centrare il form orizzontalmente */
+    padding: 10px; /* Spazio interno */
+}

@@ -1,0 +1,108 @@
+.button-v1,
+.button-v2,
+.button-v3,
+.button-v4,
+.button-v5 {
+  padding: 16px 24px;
+  border-radius: 40px;
+  width: fit-content;
+  font-size: 20px;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media (max-width: 340px) {
+  .button-v1,
+  .button-v2,
+  .button-v3,
+  .button-v4,
+  .button-v5 {
+    padding: 8px;
+    font-size: 14px;
+  }
+}
+
+.button-v1 img {
+  width: 30px;
+  height: 18px;
+  margin-left: 16px;
+}
+
+.button-v1 {
+  margin-top: 24px;
+  border: 2px solid #000;
+}
+
+.button-v2 {
+  background: #57575777;
+  box-shadow: 0px 4px 40px 0px #0000000a;
+  backdrop-filter: blur(100px);
+  color: #fff;
+}
+
+@media (max-width: 480px) {
+  .button-v2 {
+    padding: 8px;
+    font-size: 14px;
+  }
+}
+
+.button-v3 {
+  background: linear-gradient(
+    94.21deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.04) 100%
+  );
+  box-shadow: 0px 4px 40px 0px #0000000a;
+  backdrop-filter: blur(100px);
+  color: #000;
+  border: 2px solid #000;
+}
+
+.button-v3 img {
+  width: 30px;
+  height: 18px;
+  margin-left: 16px;
+}
+
+.button-v2 {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+}
+
+.button-v2 img {
+  width: 30px;
+  height: 18px;
+  margin-left: 12px;
+}
+
+.button-v4 {
+  text-align: start;
+  font-weight: 600;
+  background: linear-gradient(
+      94.21deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0.04) 100%
+    ),
+    linear-gradient(
+      90deg,
+      rgba(252, 199, 183, 0.2) 0%,
+      rgba(248, 246, 177, 0.2) 100%
+    );
+  border: 0.4px solid #c2c2c2;
+  box-shadow: 0px 4px 40px 0px #0000000a;
+  backdrop-filter: blur(100px);
+}
+
+.button-v5 {
+  text-align: start;
+  font-weight: 600;
+  background: linear-gradient(135deg, #fd83b6, rgba(255, 191, 178, 0.8));
+  border: 0.4px solid #c2c2c2;
+  box-shadow: 0px 4px 40px 0px #0000000a;
+  backdrop-filter: blur(100px);
+  color: #fff;
+}
