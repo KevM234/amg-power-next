@@ -20,7 +20,7 @@ export default function ExampleSection() {
                     <p>{text}</p>
 
                     <div className="d-flex justify-content-center justify-content-md-start align-items-center align-items-md-start mt-3 mb-3 mb-md-0">
-                        <a href="tel:3278821634" className="">
+                        <a href="tel:3463092617" className="">
                             <div className="button-v1">
                                 Chiamaci ora
                                 <svg className="ms-2" width="25" height="25" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -29,7 +29,7 @@ export default function Header() {
           </div>
 
           <div className="d-flex flex-row align-items-center">
-            <a href="tel:3278821634" target="_blank" rel="noopener noreferrer" className="d-none d-md-block">
+            <a href="tel:3463092617" target="_blank" rel="noopener noreferrer" className="d-none d-md-block">
               <div className="button-v1 mt-0">
                 Chiamaci ora
                 <svg className="ms-2" width="25" height="25" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -38,7 +38,7 @@ export default function Header() {
               </div>
             </a> 
 
-            <a href="https://wa.me/393278821634" target="_blank" rel="noopener noreferrer" className="ms-4">
+            <a href="https://wa.me/3463092617" target="_blank" rel="noopener noreferrer" className="ms-4">
               <div className="whatsapp-header d-flex align-items-center justify-content-center">
                 <img src="/images/loghi/whatsapp.png" alt="whatsapp" style={{ width: '20px', height: '20px' }} />
               </div>
