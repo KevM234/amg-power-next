@@ -1,7 +1,7 @@
 // file: app/components/Header.js
 "use client";
 
-import { useEffect, useState } from 'react'; // <-- 1. AGGIUNGI 'useState' QUI
+import { useEffect, useState } from 'react'; 
 import Link from 'next/link';
 
 export default function Header() {

@@ -71,13 +71,30 @@ export default function RootLayout({ children }) {
           {children}
         </main>
         <Footer />
-        <Script id="iubenda-main-script">
+
+        
+    <Script id="iubenda-config" strategy="beforeInteractive">
           {`
-            (function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);
+            var _iub = _iub || [];
+            _iub.csConfiguration = {
+              "lang":"it",
+              "siteId": 4261972,
+              "cookiePolicyId": 91044125,
+              "banner": {
+                "acceptButtonDisplay": true,
+                "customizeButtonDisplay": true,
+                "position": "bottom"
+              }
+            };
           `}
         </Script>
-        <Script id="iubenda-widget-script" src="https://embeds.iubenda.com/widgets/a65051d3-72ba-4cf2-a67f-599093f1dc97.js" />
-        
+        <Script
+          id="iubenda-cs"
+          src="https://cdn.iubenda.com/cs/iubenda_cs.js"
+          strategy="afterInteractive"
+          async
+        />
+
       </body>
     </html>
   );
